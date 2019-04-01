@@ -16,8 +16,12 @@ header,
   border: none;
   border-bottom: 1px solid black;
 }
+
+.carousel {
+  height: 700px;
+}
 button {
-  background-color: none;
+  background-color: rgba(0, 0, 0, 0.000000001);
   border: none;
   margin: 0 -15px;
 }
