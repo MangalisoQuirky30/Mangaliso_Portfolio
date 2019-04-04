@@ -6,9 +6,17 @@ header,
   scroll-behavior: smooth;
   scroll-speed: ;
 }
-
+.fixed {
+  position: fixed;
+  top: 0;
+}
+#nav {
+  position: fixed;
+  position: static;
+}
 #nav a {
   color: white;
+
 }
 #nav a:hover {
   color: black;
@@ -48,9 +56,6 @@ button:hover {
   background-color: rgba(200, 100, 0, .5);
   font-size:38px;
   color: black;
-  border-radius: 100%
-}
-button i fab:hover {
   text-decoration: none;
 
 }
@@ -76,10 +81,10 @@ button i fab:hover {
   padding-top: 100px;
 }
 
-.navbar {
+/* .navbar {
   background-color: rgba(0, 0, 0, 0.5);
-  /* background-size: cover; */
-}
+   background-size: cover;
+} */
 
 .nav-logo {
   width: 50px;
@@ -115,7 +120,7 @@ p {
   color: black;
 }
 
-form {
+/* form {
   border: 1px solid black;
   width: 700px;
 }
@@ -125,7 +130,7 @@ iframe{
   height: 360px;
   margin-top: 20px;
   margin-left: -30px;
-}
+} */
 
 .footer-logo {
   background-color: black;
