@@ -9,17 +9,20 @@ header,
 .fixed {
   position: fixed;
   top: 0;
+  margin: 0;
+  padding: 0;
 }
 #nav {
   position: fixed;
   position: static;
+
 }
 #nav a {
-  color: white;
+  color: black;
 
 }
 #nav a:hover {
-  color: black;
+  color: lightgrey;
   text-decoration: none;
 }
 
@@ -53,11 +56,11 @@ button {
   margin: 0 -15px;
 }
 button:hover {
-  background-color: rgba(200, 100, 0, .5);
+  background-color: rgba(200, 200, 200, .5);
   font-size:38px;
   color: black;
   text-decoration: none;
-
+  border-radius: 20px;
 }
 /* .icons {
   margin-top: 30px;
@@ -71,7 +74,7 @@ button:hover {
 }
 
 #intro {
-  background-image: url('https://images.unsplash.com/photo-1518890414976-bb41382be43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-image: url('https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');
   background-size: cover;
   -webkit-background-size: cover;
   filter: brightness(100%);
@@ -94,11 +97,11 @@ button:hover {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: black;
+  background-color: lightgrey;
 }
 
 h1 {
-  color: black;
+  color: white;
 }
 p {
   color: black;
